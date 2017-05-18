@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        final String text = "주소150";
+//        final String text = "주소150";
 
 
         setContentView(R.layout.activity_main);
@@ -87,9 +87,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tv.setText("안녕 안드로이드!!");
     }
 
-    class SubActivity {
-
-    }
+//    class SubActivity {
+//
+//    }
 
 
 
