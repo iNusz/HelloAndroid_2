@@ -4,7 +4,7 @@ jdk: oraclejdk8
 
 android:
   components:
-  - platform-tools             # ADB (디바이스 또는 에뮬레이터와 통신) 포함   // 여기선 #이 주석
+  - platform-tools             # ADB (디바이스 또는 에뮬레이터와 통신) 포함   /// 여기선 #이 주석
   - tools                      # 실제 안드로이드 SDK
   - build-tools-25.0.1         # 빌드 툴 버전
   - android-25                 # 타겟 버전
