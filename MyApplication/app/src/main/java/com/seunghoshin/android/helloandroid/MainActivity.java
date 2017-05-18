@@ -61,25 +61,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    public void main(String args[]) {
-        MainActivity clazz = new MainActivity(); //주소 150; 처음에는 clazz변수에 담김 (지역변수)
+//    public void main(String args[]) {
+//        MainActivity clazz = new MainActivity(); //주소 150; 처음에는 clazz변수에 담김 (지역변수)
+//
+//        clazz.setObject(clazz); // 150이 담김 clazz에 / 여기서 넘길때 주의해야함 !
+//
+//        clazz = new MainActivity(); // 주소 160전달받음 왼쪽에 clazz /
+//    }
 
-        clazz.setObject(clazz); // 150이 담김 clazz에 / 여기서 넘길때 주의해야함 !
 
-        clazz = new MainActivity(); // 주소 160전달받음 왼쪽에 clazz /
-    }
-
-
-    public void setObject(MainActivity aaa) { //주소 150이 넘어감 clazz가 넘어가는게 아님 !!! 변수는 사라짐 객체에 들어가는 순간
-        // 이게 다 지역변수 되었을때 문제가됨
-
-        new SubActivity() {
-            public void onClick(MainActivity activity) {
-                MainActivity bbb = aaa; //주소 150
-
-            }//
-        };
-    }
+//    public void setObject(MainActivity aaa) { //주소 150이 넘어감 clazz가 넘어가는게 아님 !!! 변수는 사라짐 객체에 들어가는 순간
+//        // 이게 다 지역변수 되었을때 문제가됨
+//
+//        new SubActivity() {
+//            public void onClick(MainActivity activity) {
+//                MainActivity bbb = aaa; //주소 150
+//
+//            }//
+//        };
+//    }
 
     //1번형태
     @Override
