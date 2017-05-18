@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
             public void onClick(MainActivity activity){
                 MainActivity bbb = aaa; //주소 150
 
-            }
+            }//
         }
     }
 
